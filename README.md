@@ -15,3 +15,5 @@ Minimal repo to validate Kotlin codebase-embeddings via PR-triggered indexing.
 |------|------|
 | `src/main/kotlin/EmbeddingsFixture.kt` | Single Kotlin fixture covering all parser chunk types |
 | `KOTLIN_EMBEDDINGS_TEST.md` | Expected chunk mappings + SQL/Pinecone verification queries |
+| `src/main/kotlin/GraphFixture.kt` | Fixture exercising every EntityType + RelationshipType for the Neo4j code graph |
+| `KOTLIN_CODE_GRAPH_TEST.md` | Expected code-graph entities/relationships + Cypher verification queries |
