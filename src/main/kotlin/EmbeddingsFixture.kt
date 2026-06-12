@@ -76,6 +76,7 @@ class WithSecondaryCtor(val name: String) {
     }
 }
 
+/** Top-level function chunk — see KOTLIN_EMBEDDINGS_TEST.md */
 fun topLevelFn(x: Int): Int {
     val step = 1
     val doubled = x * 2
